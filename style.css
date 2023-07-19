@@ -408,6 +408,86 @@ nav>ul li .long-link {
 
 
 
+/*--------Footer-------Section-------Start--------*/
+footer {
+    background-color: #343232;
+}
+
+.footer-title {
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-span {
+    color: #fa0789;
+}
+
+.footer-title img {
+    width: 60px;
+    margin: 0 10px;
+}
+
+.help-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.social-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+.social-link i {
+    color: #fff;
+    margin: 0 25px;
+    font-size: 30px;
+}
+
+.seting {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.seting a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.cradiet {
+    font-size: 18px;
+    color: #7a7878;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+/*--------Footer-------Section-------End--------*/
+
+
+
+
+
+
 
 
 
