@@ -224,6 +224,60 @@ nav>ul li .long-link {
 
 
 
+/*--------Video-Game-------Section-------Start--------*/
+.gaming-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game-text-content {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.online-game {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #343232;
+}
+
+.online-span {
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fa0789, #4b0082);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.gaming-discription {
+    font-size: 16px;
+    color: #504848;
+}
+
+.gaming-video .gaming-box {
+    width: 250px;
+}
+
+.gaming-video .gaming-box img {
+    width: 100%;
+}
+
+.gaming-box p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #4d494b;
+}
+
+/*--------Video-Game-------Section-------End--------*/
+
+
+
+
+
 
 
 
