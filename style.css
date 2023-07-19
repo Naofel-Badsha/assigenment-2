@@ -215,6 +215,13 @@ nav>ul li .long-link {
     cursor: pointer;
 }
 
+.gaming-video .gaming-box .speacial-box h3{
+    color: #d8e9f9;
+    font-size: 18px;
+    cursor: pointer; 
+    margin-top: 5px;
+}
+
 .gaming-video .gaming-box .speacial-box:hover {
     opacity: 1;
 }
@@ -482,24 +489,6 @@ footer {
     text-align: center;
 }
 /*--------Footer-------Section-------End--------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
