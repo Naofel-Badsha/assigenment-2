@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.section-pading {
+    padding: 40px 30px;
+}
+
+/*-----------Header-------Section-------Start---------*/
+/*-----------Navbar------------Start----------*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff4f4;
+    box-shadow: 5px 0px 5px 0px;
+    padding: 20px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav>ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #343232;
+}
+
+nav>ul li .long-link {
+
+    background-color: #d8e9f9;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+.logo h3 {
+    font-size: 30px;
+}
+
+.logo-name {
+    color: #fa0789;
+}
+
+/*-----------Navbar------------End----------*/
+
+
+
+
+/*-----------Banner------------Start----------*/
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner img {
+    width: 50%;
+}
+
+.banner-contact {
+    background-color: #fff4f4;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.banner-contact h3 {
+    color: #343232;
+    font-size: 25px;
+}
+
+.banner-contact h1 {
+    font-size: 50px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fa0789, #4b0082);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 3px 0;
+}
+
+.banner-contact p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #434242;
+    padding: 5px 0;
+}
+
+.banner-contact p i {
+    margin: 0 10px;
+}
+
+
+.banner-contact p .hotpink {
+    color: #fa0789;
+}
+
+
+.btn-1,
+.btn-2 {
+    border: 0;
+    margin: 30px 5px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    background-color: #fa0789;
+    color: #fff;
+}
+
+.btn-2 {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+/*-----------Banner------------End----------*/
+/*-----------Header-------Section-------End---------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------Responsive------------Start------------*/
+@media screen and (max-width: 768px) {
+
+    /*-------Banner------*/
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+
+    /*--------Gamer-------*/
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .mamer-content {
+        text-align: center;
+    }
+
+    .mamer-content img {
+        width: 100%;
+    }
+
+    /*------Downlode-------*/
+    .downlods-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-img img {
+        width: 95%;
+    }
+
+    .child-img {
+        width: 150px;
+    }
+
+    .gaming-video {
+        flex-direction: column;
+    }
+
+    .main-carrers {
+        flex-direction: column;
+    }
+
+    .mobail-brance {
+        justify-content: space-between;
+    }
+
+    .main-carrers img {
+        margin-top: 40px;
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+    nav,
+    nav>ul {
+        flex-direction: column;
+    }
+
+    nav>ul li {
+        margin-top: 25px;
+    }
+
+    nav>ul li a .long-link {
+        top: 40px;
+    }
+
+    .banner img {
+        margin-top: 20px;
+    }
+}
+/*------------Reaponsive-----------End-------------*/
