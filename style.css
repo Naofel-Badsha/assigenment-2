@@ -322,8 +322,53 @@ nav>ul li .long-link {
     color: #4d494b;
     text-align: right;
 }
-
 /*--------Downlods-Game-------Section-------End--------*/
+
+
+
+/*--------Careers-------Section-------Start--------*/
+.main-carrers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    background-color: #fa0789;
+}
+
+.main-carrers img {
+    width: 50%;
+}
+
+.carrer-text {
+    margin-bottom: 40px;
+}
+
+.carrer-text .careers-title {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.carrer-text .carrer-discription {
+    font-size: 16px;
+    color: #fff;
+}
+
+.mobail-brance {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-box-2 {
+    text-align: right;
+}
+
+.mobail-brance h3 {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+/*--------Careers-------Section-------End--------*/
 
 
 
